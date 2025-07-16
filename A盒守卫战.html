@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A盒守卫战_小白百科</title>
+    <style>-
+        /* 基础样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+        }
+
+        body {
+          background-color: #f8f9fa;
+             color: #333;
+            line-height: 1.7;
+            font-size: 14px;
+        }
+.image {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .image img {
+        max-width: 90%;
+        height:180px;
+    }
+
+       .container {
+            max-width: 960px;
+            margin: 0 auto;
+padding: 20px;
+        }
+
+        /* 头部样式 */
+        header {
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+       .subtitle {
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* 内容区样式 */
+       .main-content {
+            background-color: #fff;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        /* 目录样式 */
+       .toc {
+            background-color: #f5f5f5;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+       .toc h2 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+       .toc ul {
+            list-style-type: none;
+        }
+
+       .toc li {
+            margin-left: 15px;
+            position: relative;
+        }
+
+ .toc li:before {
+            content: "•";
+            color: #999;
+            position: absolute;
+            left: -15px;
+        }
+
+       .toc a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+       .toc a:hover {
+            text-decoration: underline;
+        }
+
+        /* 基本信息栏样式 */
+       .basic-info {
+            float: right;
+            width: 240px;
+            margin-left: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 15px;
+        }
+
+       .basic-info h2 {
+            font-size: 16px;
+            background-color: #f0f0f0;
+            padding: 8px 10px;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 10px;
+        }
+
+       .basic-info dl {
+            font-size: 14px;
+        }
+
+       .basic-info dt {
+            float: left;
+            width: 90px;
+            margin-bottom: 8px;
+            color: #666;
+            font-weight: normal;
+        }
+
+       .basic-info dd {
+            margin-left: 90px;
+            margin-bottom: 8px;
+            word-break: break-all;
+        }
+
+       .basic-info img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* 正文样式 */
+       .content-body {
+            overflow: hidden;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #333;
+            margin: 25px 0 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        h3 {
+            font-size: 16px;
+            color: #333;
+            margin: 20px 0 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul,
+        ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+       .reference {
+            background-color: #f9f9f9;
+            border-left: 3px solid #ddd;
+            padding: 10px 15px;
+            margin: 15px 0;
+            font-size: 13px;
+            color: #666;
+        }
+
+        /* 页脚样式 */
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        /* 响应式适配 */
+        @media (max-width: 768px) {
+           .basic-info {
+                float: none;
+                width: 100%;
+                margin: 0 0 20px;
+            }
+
+           .container {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+
+<div class="image">
+<img src="newabox.png">
+</div>
+<body>
+    <div class="container">
+        <header>
+            <h1>A盒守卫战</h1>
+            <p class="subtitle">自2023年4月27日开始的网络事件</p>
+        </header>
+
+    <div class="main-content">
+  <!-- 目录 -->
+            <div class="toc">
+                <h2>目录</h2>
+                <ul>
+                    <li><a href="#basic">基本信息</a></li>
+                    <li><a href="#experience">第一次</a></li>
+                    <li><a href="#career">小白论坛</a></li>
+                    <li><a href="#relationship">第二次</a></li>
+                    <li><a href="#relation">第三次</a></li>
+                    <li><a href="#end">最终</a></li>
+                </ul>
+            </div>
+
+            <!-- 内容主体 -->
+            <div class="content-body">
+                <!-- 基本信息栏 -->
+        <div class="basic-info">
+             <h2>基本信息</h2>
+                      <dl>
+                        <dt>又名</dt>
+                        <dd>ABOX Guard Battle</dd>
+                        <dt>影响</dt>
+                        <dd>对MC圈子产生一定的影响</dd>
+                        <dt>评价<br></dt>
+                        <dd>"如果没有这场事件,也<br>许A盒会超越饼盒吧。"</dd>      
+                    </dl>
+                </div>
+
+                <!-- 正文内容 -->
+                <section id="basic">
+                    <h2>基本信息</h2>
+         <p>2023年4月10日,在A盒社区开发后，一支由南瓜带领的网络团队开始反复攻击A盒，包括说我的世界A盒"抄袭迷你世界A盒"等等。并于2023年4月末开始攻击A盒。</p> 
+                    </section>
+
+                <section id="experience">
+                    <h2>第一次</h2>
+   2023年4月末-5月末，南瓜团队几乎每天攻击A盒，加上A盒本身没有备用方案加上技术不成熟，导致第一次守卫战以失败告终。<br>这些事情如果硬要追溯的话可以追溯到开发公测前，当时阿轩和南瓜就已处于敌对关系，一位QQ名为林玖的人(目前不知是否属于南瓜团队)在开了阿轩的户籍后，在互联网上张扬。甚至有人把其户籍挂在外网上。<br>第一次A盒守卫战以失败告终，加剧了情况的恶化。
+                     </section>
+
+                <section id="career">
+                    <h2>小白论坛起始</h2>
+        <p>2023年7月初，墨轩询问阿轩是否暂时放弃A盒，开发另外一款我的世界辅助类盒子-小白论坛。阿轩同意后与其一起开发。<br>2023年7月30日小白论坛成功公测。</p>
+                            </section>
+
+                <section id="relationship">
+                    <h2>第二次</h2>
+      2023年5月末，阿轩联合井石,乔伊,小易，在哔哩哔哩上发布了旨在抨击南瓜团队魔怔做法的视频，获得40万播放量，更多人知道了这件事，并加入了这场正当的守卫战。<br>第二次A盒守卫战以胜利告终。
+                   </section>
+                   <section id="relation">
+                    <h2>第三次</h2>
+ 之后，南瓜团队的几十名卧底长期混入在A盒官方群，并发户籍照和色消息，意图掩饰罪行。<br><br>kongming(never.)批判南瓜团队"在思想方面教育欠缺""思想已经被腐蚀了"。<br><br>kongming认为:<br><br>"我们追求的是符合用户与我们根本利益的正义，是通过合法、理性的方式维护正当权益。那些为“带来灾难”的行为张目的，本质上是在损害用户和我们合法权益，违背了最基本的社会公平正义，必然会遭到唾弃，也必然会受到法律的严惩。我们坚决反对一切危害社会秩序和他人权益的违法行径，这是维护我们和其他利益和社会正义的必然要求。凭为何干要屈服他们，当他们的走狗，他们是什么玩意。"<br><br>也就是从这时候开始，A盒已经不能够巅峰了。有人称报警后，警察误认为小事大做，认为拉黑就行了。<br>2024年初始，南瓜团队再次攻击A盒，当时A盒已经成功开发了出来并公测，由于南瓜突如其来的攻击使得阿轩和其余开发组不得不继续转为小白论坛。<br>2024年中旬，A盒管理组出现两派思想人物，一派认为与南瓜团队和平谈判，南瓜团队的千人和A盒不是一个对手;另一派认为应该继续战下去，不做南瓜团队的走狗。<br>由此，一场匿名为Revival的计划就此展开。当时甚至一些管理员也不知道这些事。<br>第三次守卫战虽然失败了，但却也拉开了A盒"打破质疑，重塑一切"的口号。
+                    </section>
+
+                <section id="end">
+                    <h2>最终</h2>
+<p>在第三次守卫战结束后，A盒转移策略，将核心放在了小白论坛APP上，Revival就此进入筹备阶段。<br>期间，小白论坛凭借轻量简洁而获得好评。<br><br>2025年7月4日，阿轩在哔哩哔哩的一则回归动态中提到了Revival计划进入尾声，预计于9月初-中旬完工。<br><br>2025年7月16日，小白论坛完成了它的使命，墨轩表示:<br><br>"因团队核心资源将全面投入至更高效的平台【新版 A 盒】，经综合评估，4.3版本将成为小白论坛的最终正式版本,且未来不再进行功能性更新。"<br>但服务则继续稳定延续至2025年8月30日，期间会进行一些维护保证用户的账号安全和体验。<br>同时，域名将从xiaobaiforum.github.io更换为mcabox.github.io/，用来保证将新资源能更加高效的投入NEW A·BOX(新A盒社区)。<br><br>摘自A盒官方交流群的一则新公告_2025.7.16:<br>关于新的A盒社区，我们重塑UI与交互性，确保A盒的流畅度和功能性及稳定性得到飞升，去除臃肿的功能，加密用户安全和app稳定性。新A盒流畅度相较于A盒9.7版，提升约在一半以上)<br><br>新A盒名为"A盒未来版"，icon图标和UI，交互性将得到重塑。</p>
+               </section>
+            </div>
+        </div>
+
+     
+    </div>
+</body>
+
+</html>
